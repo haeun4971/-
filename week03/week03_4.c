@@ -3,17 +3,16 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {
-	
+int main(void)
+{
 	float a;
 	float b;
 	
+	printf("enter two integers:");
+	scanf("%f" "%f" , &a, &b);
 	
-	printf("enter two integers :");
-	scanf("%f","%f",&a,&b);
-	
-	printf("%f/%f=%f",a,b,a/b);
-	
+	printf("%f / %f = %f",a,b,a/b);
+
   
 	return 0;
 }
