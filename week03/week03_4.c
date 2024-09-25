@@ -9,7 +9,7 @@ int main(void)
 	float b;
 	
 	printf("enter two integers:");
-	scanf("%f" "%f" , &a, &b);
+	scanf("%f , %f" , &a, &b);
 	
 	printf("%f / %f = %f",a,b,a/b);
 
